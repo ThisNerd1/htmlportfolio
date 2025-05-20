@@ -1,9 +1,12 @@
 function changeColor(colorClass) {
   var element = document.body;
-  // Remove all existing color classes
-  element.classList.remove('blue', 'mocha', 'night-sky', 'sunrise-sunset');
-  // Add the selected color class
+  element.classList.remove('daydreams', 'chocolate', 'cool', 'cotton-candy');
   element.classList.add(colorClass);
+  if (element.style.backgroundColor === 'chocolate') {
+    document.querySelector('.coffee').style.display = 'block';
+  } else {
+    document.querySelector('.coffee').style.display = 'none';
+  }
 }
 
 

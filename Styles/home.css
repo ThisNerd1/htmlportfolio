@@ -1,6 +1,6 @@
 body {
     transition: background-color 0.5s ease;
-    background: linear-gradient(to right, #FD5E53, #FFC371);
+    background: linear-gradient(to right, #1e3c72, #2a5298);
     margin: 0;
 }
 
@@ -62,8 +62,8 @@ rect {
     background-color: grey;  
 }  
 
-.blue {
-    background: linear-gradient(to right, #b3d7ff, #99b3ff);
+.daydreams {
+    background: linear-gradient(to right, #e0c3fc, #8ec5fc);
     color: white;
     .cloud {
         background-color: #fff;
@@ -338,8 +338,8 @@ rect {
     }
 }
 
-.mocha {
-    background: linear-gradient(to right, #896045, #A47F66);
+.cool {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
     color: white;
     :root {
       font-family: sans-serif;
@@ -579,17 +579,9 @@ rect {
     }
 }
 
-.night-sky {
-    background: linear-gradient(to right, #000066, #000033);
+.chocolate {
+    background: linear-gradient(to right, #3e2723, #4e342e, #6d4c41); 
     color: white;
-    .ball{
-        margin: 10px 720px;
-        border-radius: 50%;
-        width: 70px;
-        height:70px;
-        background-color: whitesmoke;
-        box-shadow: 0 0 35px 5px grey,0 0 25px 10px #808080 inset
-    }
     :root {
       font-family: sans-serif;
     }
@@ -614,11 +606,6 @@ rect {
     .event-description {
       margin: 0;
     }
-    /* img{
-      display: block;
-          margin-left: auto;
-          margin-right: auto;
-    } */
     .timeline {
       --height: 7rem;
       position: relative;
@@ -627,29 +614,6 @@ rect {
       border-color: #D6EDF5;
       padding: 1rem;
       margin: 2rem 0;
-    }
-    .timeline::before {
-      content: "";
-      background-color: inherit;
-      position: absolute;
-      display: block;
-      width: var(--unit);
-      height: var(--unit);
-      top: 100%;
-      left: calc(50% - (var(--unit)/2));
-    }
-    .timeline::after {
-      content: "";
-      position: absolute;
-      display: block;
-      top: calc(100% + var(--unit));
-      left: calc(50% - (var(--unit)));
-      border: var(--unit) solid transparent;
-      border-top-color: inherit;
-    }
-    .timeline:last-child::before,
-    .timeline:last-child::after {
-      content: none;
     }
     .timeline:nth-child(20n+1){
       --hue: 1;
@@ -828,8 +792,11 @@ rect {
     }
 }
 
-.sunrise-sunset {
-    background: linear-gradient(to right, #FD5E53, #FFC371);
+
+
+
+.cotton-candy {
+    background: linear-gradient(to right, #a8edea, #fed6e3);
     color: white;
 }
 
