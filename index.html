@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daijah's Porfolio</title>
     <link rel="stylesheet" href="Styles/home.css"/>
-    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-core.min.js"></script>
-    <script src="https://cdn.anychart.com/releases/8.11.0/js/anychart-heatmap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
-<body>
+<body onload="changeColor('cotton-candy')">
     <div class="navbar">
         <div class="empty"></div>
             <ul class="menu">
@@ -32,43 +31,69 @@
     <div class="cloud-container"><div class="cloud"></div><div class="cloud2"></div></div>
     <hr id="white-line">
     <!-- I have planted my feet so now I'm here to grow! -->
-    <h3>My Skillset</h3>
-    <div id="container"></div>
+    <h3>My Skillset Confidence</h3>
+    <canvas id="skillChart" width="400" height="100"></canvas>
     <hr id="white-line">
-    <h2>Some super cool projects yours truly made!</h2>
     <!-- <p> Add a brief description of what the project does, 
     what languages I used, along with a link to the project in github.</p>
     <p>Video/animation short of what the project does.</p> -->
     <div class="projectsContainer">
+        <!-- <div class="projects">
+            <h2>Prototype:</h2><br/>
+            <div class="nested-box">
+                <h3>Python Music Player</h3>
+                <p>Host it, tkinter and pygame; pause, play, skip music</p>
+                <img alt="cat" width="100" height="100">
+                <a target="_blank" href="">Live Demo</a>
+                <a target="_blank" href="">Github</a>
+            </div>
+            <div class="nested-box">
+                <h3>React-Native Portfolio</h3>
+                <p>Host it, My porfolio but for mobile</p>
+                <img alt="cat" width="100" height="100">
+                <a target="_blank" href="">Live Demo</a>
+                <a target="_blank" href="">Github</a> 
+            </div>
+            <div class="nested-box">
+                <h3>PHP Road Trip Planner</h3>
+                <p> Host it, Access calendar</p>
+                <img alt="cat" width="100" height="100">
+                <a target="_blank" href="">Live Demo</a>
+                <a target="_blank" href="">Github</a>
+            </div> 
+            <div class="nested-box">
+                <h3>C# and Xamarin Unit Converter</h3>
+                <p>Host it, Decide which measurements to add</p>
+                <img alt="cat" width="100" height="100">
+                <a target="_blank" href="">Live Demo</a>
+                <a target="_blank" href="">Github</a> 
+            </div>
+            <div class="nested-box">
+                <h3>Swift Language Learning App</h3>
+                <p>Host it, Choose a language</p>
+                <img alt="cat" width="100" height="100">
+                <a target="_blank" href="">Live Demo</a>
+                <a target="_blank" href="">Github</a> 
+            </div>
+            <div class="nested-box">
+                <h3>Online Shopping</h3>
+                <p> Host it, Email Contact Form, Credit Card Validator</p>
+                <img alt="cat" width="100" height="100">
+                <a target="_blank" href="">Live Demo</a>
+                <a target="_blank" href="">Github</a>
+            </div>
+        </div> -->
         <div class="projects">
-            Not Completed:<br/>
-            <div class="nested-box">Python Music Player: Host it, tkinter and pygame; pause, play, skip music</div>
-            <div class="nested-box">React-Native Portfolio App: Host it, My porfolio but for mobile </div>
-            <div class="nested-box">PHP Road Trip Planner: Host it, Access calendar</div> <!-- https://www.codementor.io/projects/web/road-trip-planner-ce2l7lxjrm Idea-->
-            <div class="nested-box">C# and Xamarin Unit Converter: Host it, Decide which measurements to add </div>
-            <div class="nested-box">Swift Language Learning App: Host it, Choose a language </div>
-            <div class="nested-box">Online Shopping: Host it, Email Contact Form, Credit Card Validator
+            <h2>Currently Building:</h2><br/>
+            <div class="nested-box">
+                <h3>Golang Quiz Application</h3>
+                <p>Host it, Scoreboard, login/sign-up, </p>
+                <img alt="cat" width="100" height="100">
+                <a target="_blank" href="">Live Demo</a>
+                <a target="_blank" href="">Github</a>  
             </div>
         </div>
-        <div class="projects">
-            Completed:<br/>
-            <div class="nested-box">Capstone:
-                <section>Host it, explain what it did and what I want to add on to it</section>
-            </div>
-        </div>
-        <div class="projects">
-            In Progress:<br/>
-            <div class="nested-box">Golang Quiz Application: 
-                <section>Host it, Scoreboard</section> 
-            </div>
-        </div>
-    </div>
-    <div><a target="_blank" href="https://www.udemy.com/user/daijah-coppage/">here</a></div>
-        <script src="Animation/home.js"></script>
+    <script src="Animation/home.js"></script>
 </body>
 </html>
-
-
-    <!-- https://www.pinterest.com/pin/2251868555605931/
-    https://www.pinterest.com/pin/122934264822244163/ -->
 

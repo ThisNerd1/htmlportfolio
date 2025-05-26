@@ -1,11 +1,6 @@
 body {
     transition: background-color 0.5s ease;
-    background: linear-gradient(to right, #1e3c72, #2a5298);
-    margin: 0;
-}
-
-rect {
-  fill: steelblue;
+    background: linear-gradient(to right, #a8edea, #fed6e3);
 }
 
 .navbar {
@@ -22,7 +17,7 @@ rect {
     padding-left: 0;
     gap: 20px;
     text-decoration: none;
-    color: white;
+    color: rgb(136, 130, 130);
     font-size: 20px;
 }
 
@@ -72,7 +67,7 @@ rect {
         box-shadow: inset 0 0 0 1px hsla(0,0%,100%,.5);
         display: inline-block;
         height: 1em;
-        left: 49.2%;
+        left: 50.2%;
         margin-left: -1.5em;
         position: absolute;
         top: 12%;
@@ -124,11 +119,6 @@ rect {
     .event-description {
       margin: 0;
     }
-    /* img{
-      display: block;
-          margin-left: auto;
-          margin-right: auto;
-    } */
     .timeline {
       --height: 7rem;
       position: relative;
@@ -792,12 +782,9 @@ rect {
     }
 }
 
-
-
-
 .cotton-candy {
     background: linear-gradient(to right, #a8edea, #fed6e3);
-    color: white;
+    color: grey;
 }
 
 
@@ -808,18 +795,12 @@ rect {
     margin: 20px 0; 
 }
 
-
-#container { 
-  width: 100%; margin: 0; padding: 0; 
-} 
-
 h3{
   text-align: center;
 }
 
-
 .projectsContainer{
-  border: 2px solid black;
+  border: 3px solid whitesmoke;
   display: flex;
   justify-content:space-around;
   text-align: center;
@@ -827,160 +808,15 @@ h3{
 
 .projects {
   display: inline-block;
-  border: 1px solid red;
-  padding: 1rem 1rem;
+  border: 2px solid whitesmoke;
+  padding: 3rem 3rem;
   vertical-align: middle;
 }
 
 .nested-box{
-  background-color: #C4BEF7;
-  border: #808080 solid 2px;
-  padding: 10px;
+  background-color: #cfbef7;
+  border: solid 2px;
+  padding: 15px;
   margin: 20px;
+  border-radius: 5px;
 }
-
-
-.heat-map{
-  border: #3acdcd solid 3px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-#box{
-  display: inline-block;
-  border: 1px solid black;
-  padding: 1rem 1rem;
-  vertical-align: middle;
-}
-
-
-
-
-
-
-/* .container{
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 200px;
-    border: 3px solid #A47F66;
-    background-color: #f58c8c;
-    margin-bottom: 10px;
-} */
-
-/* #container div{
-    height: 400px;
-    width: 250px;
-    background-color: #f7e4aa;
-    margin: 60px;
-} */
-
-/* .image-container {
-    position: left;
-    width: 45%;
-    height: auto;
-    max-width: 150px; 
-    float: left;
-    margin-right: 20px;
-} */
-
-
-
-/* #img-container{
-    position: relative;
-    height: 300px;
-    width: 300px;
-    float: left;
-    margin-left: 20px;
-}
-
-#about-text {
-    margin-left: 20px; 
-} */
-
-/* img {
-    transition: transform .2s;
-    width:80px;
-    height:80px;
-    margin:0 auto;
-    border-radius: 5px;
-    border: 3px solid #D3BFA8;
-}
-
-img:hover{
-    transform:scale(2.0);
-} */
-
-
-
-
-
-/* li {list-style-position: inside;} */
-
-
-
-
-/* #projects-section{
-    border: 5px solid white; 
-    background-color: #78C1F3;
-    text-align: center;
-}
-
-footer{
-    text-align: center;
-}
-
-#Capstone{
-    flex: 1; 
-    margin: 10px; 
-    padding: 15px; 
-    border: 5px solid white; 
-    background-color: #FFF5CA;
-    text-align: center;
-}
-
-#Shopping{
-    flex: 1; 
-    margin: 10px; 
-    padding: 15px; 
-    border: 5px solid white; 
-    background-color: #FFF5CA;
-    text-align: center;
-}
-
-#Music{
-    flex: 1; 
-    margin: 10px; 
-    padding: 15px; 
-    border: 5px solid white; 
-    background-color: #FFF5CA;
-    text-align: center;
-}
-
-#React-Native{
-    flex: 1; 
-    margin: 10px; 
-    padding: 15px; 
-    border: 5px solid white; 
-    background-color: #ccccff;
-    text-align: center;
-}
-
-#PHP{
-    flex: 1; 
-    margin: 10px; 
-    padding: 15px; 
-    border: 5px solid white; 
-    background-color: #ccccff;
-    text-align: center;
-}
-
-#Golang{
-    flex: 1; 
-    margin: 10px; 
-    padding: 15px; 
-    border: 5px solid white; 
-    background-color: #ccccff;
-    text-align: center;
-} */
