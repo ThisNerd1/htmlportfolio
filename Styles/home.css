@@ -813,6 +813,13 @@ h3{
   vertical-align: middle;
 }
 
+.projects2 {
+  display: inline-block;
+  border: 2px solid whitesmoke;
+  padding: 3rem 3rem;
+  vertical-align: middle;
+}
+
 .nested-box{
   background-color: #cfbef7;
   border: solid 2px;
