@@ -827,3 +827,21 @@ h3{
   margin: 20px;
   border-radius: 5px;
 }
+
+.skill-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-box {
+  background-color: #cfbef7;
+  border: solid 2px;
+  color: black;
+  padding: 1px 1px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 16px;
+}
